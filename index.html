@@ -9,11 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
   <style>
-/* ==========================================================================
-   ОСТАРБАЙТЕРЫ БЕЛАРУСИ — СТИЛИ САЙТА
-   Теплая, мягкая и уважительная эстетика памяти
-   ПОЛНАЯ АДАПТАЦИЯ ДЛЯ СМАРТФОНОВ, ПЛАНШЕТОВ И ПК
-   ========================================================================== */
+
 
 :root {
   --bg-primary: #FAF7F2;
@@ -86,7 +82,6 @@ body {
   flex-direction: column;
 }
 
-/* Subtle paper texture overlay */
 body::before {
   content: "";
   position: fixed;
@@ -101,7 +96,6 @@ body::before {
   z-index: 0;
 }
 
-/* Typography */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-serif);
   color: var(--text-primary);
@@ -145,9 +139,7 @@ img {
   z-index: 1;
 }
 
-/* ==========================================================================
-   BUTTONS (Full Mobile Fix: No word cut-off, responsive text wrapping)
-   ========================================================================== */
+
 
 .btn {
   display: inline-flex;
@@ -236,9 +228,7 @@ img {
   100% { transform: scale(0.9); opacity: 0.7; }
 }
 
-/* ==========================================================================
-   HEADER & NAVBAR
-   ========================================================================== */
+
 
 .top-bar {
   background-color: #262220;
@@ -382,7 +372,6 @@ img {
   line-height: 1;
 }
 
-/* Mobile Drawer */
 .mobile-drawer {
   position: fixed;
   top: 0;
@@ -465,9 +454,6 @@ img {
   opacity: 1;
 }
 
-/* ==========================================================================
-   VIEW CONTAINER & ANIMATED PAGE TRANSITIONS
-   ========================================================================== */
 
 main#app-root {
   flex: 1;
@@ -506,9 +492,6 @@ main#app-root {
   animation: fadeInUp 0.4s ease forwards;
 }
 
-/* ==========================================================================
-   HERO SECTION (HOME) — Full Responsive Layout
-   ========================================================================== */
 
 .hero-wrapper {
   background: linear-gradient(135deg, #302A26 0%, #211D1B 100%);
@@ -605,7 +588,6 @@ main#app-root {
   line-height: 1.5;
 }
 
-/* Stats counter grid */
 .stats-banner {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -651,7 +633,6 @@ main#app-root {
   margin-top: 0.25rem;
 }
 
-/* Research banner */
 .research-banner {
   background-color: var(--bg-card);
   border: 1px solid var(--border-light);
@@ -690,7 +671,6 @@ main#app-root {
   line-height: 1.6;
 }
 
-/* Quiz Callout Banner on Home */
 .quiz-teaser-banner {
   background: linear-gradient(135deg, #FAF4EB, #F2E8DA);
   border: 2px dashed var(--border-accent);
@@ -713,7 +693,6 @@ main#app-root {
   font-size: 0.95rem;
 }
 
-/* Section Headers */
 .section-header {
   text-align: center;
   max-width: 780px;
@@ -744,9 +723,7 @@ main#app-root {
   line-height: 1.6;
 }
 
-/* ==========================================================================
-   CARDS & PEOPLE DIRECTORY
-   ========================================================================== */
+
 
 .people-filter-bar {
   display: flex;
@@ -939,9 +916,7 @@ main#app-root {
   font-weight: 600;
 }
 
-/* ==========================================================================
-   INDIVIDUAL BIOGRAPHY PAGE (VIEW-PERSON)
-   ========================================================================== */
+
 
 .bio-nav-header {
   margin-bottom: 1.8rem;
@@ -1088,7 +1063,6 @@ main#app-root {
   margin-bottom: 0.9rem;
 }
 
-/* Bio photo gallery */
 .bio-gallery-section {
   background-color: var(--bg-card);
   border: 1px solid var(--border-light);
@@ -1136,7 +1110,6 @@ main#app-root {
   line-height: 1.4;
 }
 
-/* Person pagination footer */
 .person-pagination {
   display: flex;
   justify-content: space-between;
@@ -1148,9 +1121,6 @@ main#app-root {
   flex-wrap: wrap;
 }
 
-/* ==========================================================================
-   HISTORY PAGE (VIEW-HISTORY)
-   ========================================================================== */
 
 .history-article {
   background-color: var(--bg-card);
@@ -1195,9 +1165,7 @@ main#app-root {
   margin-bottom: 0.6rem;
 }
 
-/* ==========================================================================
-   QUIZ PAGE (VIEW-QUIZ)
-   ========================================================================== */
+
 
 .quiz-container {
   max-width: 800px;
@@ -1268,9 +1236,7 @@ main#app-root {
   flex-wrap: wrap;
 }
 
-/* ==========================================================================
-   MAP VIEW (VIEW-MAP)
-   ========================================================================== */
+
 
 .map-card-wrapper {
   background-color: var(--bg-card);
@@ -1317,9 +1283,7 @@ main#app-root {
   line-height: 1.5;
 }
 
-/* ==========================================================================
-   ARCHIVE VIEW (VIEW-ARCHIVE)
-   ========================================================================== */
+
 
 .archive-filter-tabs {
   display: flex;
@@ -1402,9 +1366,7 @@ main#app-root {
   color: var(--text-muted);
 }
 
-/* ==========================================================================
-   MODAL LIGHTBOX
-   ========================================================================== */
+
 
 .lightbox-modal {
   position: fixed;
@@ -1497,9 +1459,7 @@ main#app-root {
   color: var(--text-muted);
 }
 
-/* ==========================================================================
-   FOOTER
-   ========================================================================== */
+
 
 .site-footer {
   background-color: #231F1C;
@@ -1568,9 +1528,7 @@ main#app-root {
   gap: 0.8rem;
 }
 
-/* ==========================================================================
-   COMPREHENSIVE RESPONSIVE BREAKPOINTS (Mobile & Tablet Mastery)
-   ========================================================================== */
+
 
 @media (max-width: 1024px) {
   .hero-grid {
@@ -1857,9 +1815,7 @@ main#app-root {
 }
 
 
-/* ==========================================================================
-   QUIZ INTERACTIVE MODULE & POPUP RESULT MODAL STYLES
-   ========================================================================== */
+
 
 .quiz-container {
   max-width: 840px;
@@ -2020,9 +1976,7 @@ main#app-root {
   flex-wrap: wrap;
 }
 
-/* ==========================================================================
-   POPUP MODAL FOR QUIZ RESULTS (Всплывающее окно)
-   ========================================================================== */
+
 
 .quiz-modal-overlay {
   position: fixed;
@@ -2269,6 +2223,18 @@ main#app-root {
     width: 100%;
   }
 }
+    
+.nav-link,
+.nav-menu button,
+.nav-menu a {
+  white-space: nowrap !important;
+  word-break: keep-all !important;
+  hyphens: none !important;
+}
+
+.nav-menu {
+  gap: 0.8rem;
+}    
 
 </style>
 </head>
