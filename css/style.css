@@ -2264,3 +2264,16 @@ main#app-root {
   white-space: nowrap;
   font-size: clamp(1.4rem, 4vw, 2.6rem);
 }
+
+.nav-link,
+.nav-menu button,
+.nav-menu a {
+  white-space: nowrap !important;
+  word-break: keep-all !important;
+  hyphens: none !important;
+}
+
+
+.nav-menu {
+  gap: 0.8rem;
+}
