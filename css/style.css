@@ -2258,3 +2258,9 @@ main#app-root {
     width: 100%;
   }
 }
+.section-title,
+.hero-title,
+.site-header .brand-text h1 {
+  white-space: nowrap;
+  font-size: clamp(1.4rem, 4vw, 2.6rem);
+}
