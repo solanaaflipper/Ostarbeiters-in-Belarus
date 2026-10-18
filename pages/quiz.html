@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Викторина: Остарбайтеры Беларуси</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="../index.html#home" class="brand-link">
+        <img src="../images/ost_badge.png" alt="Знак OST" class="brand-emblem">
+        <div class="brand-text">
+          <h1>ОСТАРБАЙТЕРЫ БЕЛАРУСИ</h1>
+          <p>Судьбы восточных рабочих и малолетних узников</p>
+        </div>
+      </a>
+      <nav class="nav-menu">
+        <a href="../index.html#home" class="nav-link">Главная</a>
+        <a href="../index.html#history" class="nav-link">Об остарбайтерах</a>
+        <a href="../index.html#people" class="nav-link">Судьбы людей</a>
+        <a href="../index.html#map" class="nav-link">Карта угона</a>
+        <a href="../index.html#archive" class="nav-link">Фотоархив</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="quiz.html" class="btn btn-quiz-nav">
+          <span class="pulse-dot"></span>
+          <span>Викторина</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main style="padding: 2.5rem 0 5rem;">
+    <div class="container quiz-container">
+      <div class="quiz-hero-card" style="margin-bottom: 2rem; padding: 2.5rem 1.5rem; text-align: center;">
+        <div class="quiz-badge-big">🎯</div>
+        <h2>Историческая викторина: Остарбайтеры Беларуси</h2>
+        <p style="color: var(--text-secondary); max-width: 620px; margin: 0 auto; font-size: 0.98rem;">
+          Проверьте свои знания по истории остарбайтерства. В каждом раунде случайным образом выбираются <strong>10 вопросов</strong> из базы в 30 вопросов. По завершении откроется окно с результатами и правильными ответами!
+        </p>
+      </div>
+
+      <div id="quizDynamicContent">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>© Проект «Остарбайтеры Беларуси». Все права на сохранение исторической памяти защищены.</div>
+        <div>Оптимизировано для смартфонов, планшетов и ПК</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/app.js"></script>
+</body>
+</html>
